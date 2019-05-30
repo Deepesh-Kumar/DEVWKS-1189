@@ -13,4 +13,4 @@ cd DEVWKS-1189/scripts/
 
 Running the script
 
-python3 <script name> <vManage IP>
+python3 <script name> <vManage ip>
