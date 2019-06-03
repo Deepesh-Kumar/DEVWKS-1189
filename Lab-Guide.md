@@ -15,16 +15,16 @@ ADD SCREENSHOT
 
 ### Device Auditing
 
-API Used - ht<span>tps://vmanage-ip/dataservice/system/device/management/systemip
-METHOD - GET 
+- API Used - ht<span>tps://vmanage-ip/dataservice/system/device/management/systemip
+- METHOD - GET 
 
 
 ## Use Case-2
 
 ### vSmart Policy Push
 
-API Used  - ht<span>tps://vmanage-ip/dataservice/template/policy/vsmart
-METHOD - POST
+- API Used  - ht<span>tps://vmanage-ip/dataservice/template/policy/vsmart
+- METHOD - POST
 
 
 
@@ -32,8 +32,8 @@ METHOD - POST
 
 ### Device Template Push
 
-API Used - ht<span>tps://vmanage-ip/dataservice/template/device/config/attachcli
-METHOD - POST
+- API Used - ht<span>tps://vmanage-ip/dataservice/template/device/config/attachcli
+- METHOD - POST
 
 
 ## Use Case-4
