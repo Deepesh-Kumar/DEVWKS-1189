@@ -7,7 +7,7 @@ https://sdwan-docs.cisco.com/Product_Documentation/Command_Reference/vManage_RES
 
 ## API-Library
 
-The API library for the vManage can be accesssed at https://<vmanage-ip>/apidocs
+The API library for the vManage can be accesssed at ht<span>tps://vmanage-ip/apidocs
   
 ADD SCREENSHOT
 
@@ -15,7 +15,7 @@ ADD SCREENSHOT
 
 ### Device Auditing
 
-API Used - ht<span>tps://<vmanage-ip>/dataservice/system/device/management/systemip
+API Used - ht<span>tps://vmanage-ip/dataservice/system/device/management/systemip
 METHOD - GET 
 
 
@@ -23,7 +23,7 @@ METHOD - GET
 
 ### vSmart Policy Push
 
-API Used  - ht<span>tps://<vmanage-ip>/dataservice/template/policy/vsmart
+API Used  - ht<span>tps://vmanage-ip/dataservice/template/policy/vsmart
 METHOD - POST
 
 
@@ -32,7 +32,7 @@ METHOD - POST
 
 ### Device Template Push
 
-API Used - ht<span>tps://<vmanage-ip>/dataservice/template/device/config/attachcli
+API Used - ht<span>tps://vmanage-ip/dataservice/template/device/config/attachcli
 METHOD - POST
 
 
