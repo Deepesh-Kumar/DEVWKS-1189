@@ -13,20 +13,20 @@ ADD SCREENSHOT
 
 ## Use Case -  Device Auditing
 
-- API Used - ht<span>tps://vmanage-ip/dataservice/system/device/management/systemip
+- API Used - ht<span>tps://{{vmanage-ip}}/dataservice/system/device/management/systemip
 - METHOD - GET 
 
 
 ## Use Case-2 - vSmart Policy Push
 
-- API Used  - ht<span>tps://vmanage-ip/dataservice/template/policy/vsmart
+- API Used  - ht<span>tps://{{vmanage-ip}}/dataservice/template/policy/vsmart
 - METHOD - POST
 
 
 
 ## Use Case-3 - Device Template Push
 
-- API Used - ht<span>tps://vmanage-ip/dataservice/template/device/config/attachcli
+- API Used - ht<span>tps://{{vmanage-ip}}/dataservice/template/device/config/attachcli
 - METHOD - POST
 
 
