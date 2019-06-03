@@ -17,24 +17,20 @@ ADD SCREENSHOT
 - METHOD - GET 
 
 
-## Use Case-2
-
-### vSmart Policy Push
+## Use Case-2 - vSmart Policy Push
 
 - API Used  - ht<span>tps://vmanage-ip/dataservice/template/policy/vsmart
 - METHOD - POST
 
 
 
-## Use Case-3
-
-### Device Template Push
+## Use Case-3 - Device Template Push
 
 - API Used - ht<span>tps://vmanage-ip/dataservice/template/device/config/attachcli
 - METHOD - POST
 
 
-## Use Case-4
+## Use Case-4 - Device Monitoring
 
 
 
