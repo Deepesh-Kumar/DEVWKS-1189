@@ -17,4 +17,4 @@ This is the github repository for the DEVWKS-1189 workshop.
 
 ## Running the script
 
-python3 <script name> <vManage ip>
+python3 <script name> vManage ip
