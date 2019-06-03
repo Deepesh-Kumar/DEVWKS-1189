@@ -9,7 +9,9 @@ https://sdwan-docs.cisco.com/Product_Documentation/Command_Reference/vManage_RES
 
 - The API library for the vManage can be accesssed at ht<span>tps://{{vmanage-ip}}/apidocs
   
-[![Screen-Shot-2019-06-02-at-10-49-44-PM.png](https://i.postimg.cc/9F6KKfKf/Screen-Shot-2019-06-02-at-10-49-44-PM.png)](https://postimg.cc/6yhMGB9s)
+ 
+  
+[![Screen-Shot-2019-06-02-at-10-50-56-PM.png](https://i.postimg.cc/PqhcfRts/Screen-Shot-2019-06-02-at-10-50-56-PM.png)](https://postimg.cc/RWsGXG6X)
 
 ## Use Case -  Device Auditing
 
