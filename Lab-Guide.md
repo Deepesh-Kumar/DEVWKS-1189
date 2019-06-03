@@ -11,9 +11,7 @@ The API library for the vManage can be accesssed at ht<span>tps://vmanage-ip/api
   
 ADD SCREENSHOT
 
-## Use Case-1
-
-### Device Auditing
+## Use Case -  Device Auditing
 
 - API Used - ht<span>tps://vmanage-ip/dataservice/system/device/management/systemip
 - METHOD - GET 
