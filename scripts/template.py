@@ -35,7 +35,7 @@ class push_device_template:
 
 def main(args):
     vmanage_ip = args[0]
-    obj = push_device_template(vmanage_ip, 'deepesh', 'deepesh4321!')
+    obj = push_device_template(vmanage_ip, 'admin', 'v1ptela0212')
     result = obj.push_template()
 
 

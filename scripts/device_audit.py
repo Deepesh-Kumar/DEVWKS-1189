@@ -29,7 +29,7 @@ class device_audit:
 
 def main(args):
 	vmanage_ip = args[0]
-	obj = device_audit(vmanage_ip, 'admin', 'admin')
+	obj = device_audit(vmanage_ip, 'admin', 'v1ptela0212')
 	result = obj.get_device_chassis_details()
 
 

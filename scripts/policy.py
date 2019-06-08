@@ -36,7 +36,7 @@ class activate_vsmart_policy:
 
 def main(args):
     vmanage_ip = args[0]
-    obj = activate_vsmart_policy(vmanage_ip, 'deepesh', 'deepesh4321!')
+    obj = activate_vsmart_policy(vmanage_ip, 'admin', 'v1ptela0212')
     result = obj.activate_policy()
 
 
