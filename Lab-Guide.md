@@ -18,7 +18,7 @@ https://sdwan-docs.cisco.com/Product_Documentation/Command_Reference/vManage_RES
 
 [![Screen-Shot-2019-06-09-at-4-24-37-PM.png](https://i.postimg.cc/Gp4C5fZv/Screen-Shot-2019-06-09-at-4-24-37-PM.png)](https://postimg.cc/kVPzVTM5)
 
-## Use Case -  Device Auditing
+## Use Case-1 -  Device Auditing
 
 #### Run python script to get serial and chassis numbers of devices which are part of the SD-WAN overlay.
 - API Used - ht<span>tps://{{vmanage-ip}}/dataservice/system/device/management/systemip
