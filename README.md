@@ -9,6 +9,12 @@ This is the github repository for the DEVWKS-1189 workshop.
 
 ## Lab Access
 
+# vManage Access
+
+# Sevone Access
+
+# LiveAction Accesss
+
 ## Steps to get Started 
 
 ```
@@ -21,3 +27,4 @@ This is the github repository for the DEVWKS-1189 workshop.
 
 ```
 python3 <script name> {{vManage-ip}}
+
