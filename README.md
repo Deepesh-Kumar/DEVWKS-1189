@@ -13,7 +13,7 @@ This is the github repository for the DEVWKS-1189 workshop.
 
 ### Sevone Access
 
-### LiveAction Accesss
+### LiveAction Access
 
 ### Steps to get Started 
 
