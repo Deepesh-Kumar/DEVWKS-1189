@@ -9,11 +9,11 @@ This is the github repository for the DEVWKS-1189 workshop.
 
 ## Lab Access
 
-# vManage Access
+## vManage Access
 
-# Sevone Access
+## Sevone Access
 
-# LiveAction Accesss
+## LiveAction Accesss
 
 ## Steps to get Started 
 
