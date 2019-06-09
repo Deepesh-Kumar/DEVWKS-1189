@@ -13,11 +13,11 @@ This is the github repository for the DEVWKS-1189 workshop.
 
 Credentials Provided
 
-### Sevone Access
+### Sevone NMS Instance Access
 
 Credentials Provided
 
-### LiveAction Access
+### LiveAction NMS Instance Access
 
 Credentials Provided
 
