@@ -27,7 +27,7 @@ https://sdwan-docs.cisco.com/Product_Documentation/Command_Reference/vManage_RES
 
 ## Use Case-2 - vSmart Policy Push
 
-#### Run python script to push centralized policy on the vSsmart controller.
+#### Run python script to push centralized policy on the vSmart controller.
 - API Used  - ht<span>tps://{{vmanage-ip}}/dataservice/template/policy/vsmart
 - METHOD - POST
 
