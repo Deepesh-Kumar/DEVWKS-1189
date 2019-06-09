@@ -20,21 +20,21 @@ https://sdwan-docs.cisco.com/Product_Documentation/Command_Reference/vManage_RES
 
 ## Use Case -  Device Auditing
 
-### Run python script to get serial and chassis numbers of devices which are part of the SD-WAN overlay.
+#### Run python script to get serial and chassis numbers of devices which are part of the SD-WAN overlay.
 - API Used - ht<span>tps://{{vmanage-ip}}/dataservice/system/device/management/systemip
 - METHOD - GET 
 
 
 ## Use Case-2 - vSmart Policy Push
 
-### Run python script to push centralized policy on the vSsmart controller.
+#### Run python script to push centralized policy on the vSsmart controller.
 - API Used  - ht<span>tps://{{vmanage-ip}}/dataservice/template/policy/vsmart
 - METHOD - POST
 
 
 
 ## Use Case-3 - Device Template Push
-### Run python script to push configuration on the WAN Edge Device.
+#### Run python script to push configuration on the WAN Edge Device.
 - API Used - ht<span>tps://{{vmanage-ip}}/dataservice/template/device/config/attachcli
 - METHOD - POST
 
