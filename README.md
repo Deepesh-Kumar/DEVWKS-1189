@@ -9,10 +9,22 @@ This is the github repository for the DEVWKS-1189 workshop.
 
 ## Lab Access
 
-## Steps to get Started 
+### vManage Access
+
+Credentials Provided
+
+### Sevone NMS Instance Access
+
+Credentials Provided
+
+### LiveAction NMS Instance Access
+
+Credentials Provided
+
+### Steps to get Started 
 
 ```
-* git clone ht<span>tps://<span>github.com<span>/Deepesh-Kumar/DEVKWS-1189.git
+* git clone https://github.com/Deepesh-Kumar/DEVKWS-1189.git
 
 * cd DEVWKS-1189/scripts/
 
@@ -21,3 +33,4 @@ This is the github repository for the DEVWKS-1189 workshop.
 
 ```
 python3 <script name> {{vManage-ip}}
+
