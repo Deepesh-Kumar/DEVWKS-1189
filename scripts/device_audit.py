@@ -7,7 +7,7 @@ import csv
 from requests.auth import HTTPBasicAuth
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
-s = requests.session()	
+session = requests.session()	
 
 class device_audit:
 
@@ -18,11 +18,11 @@ class device_audit:
 
 
 	def get_device_chassis_details(self):
-		urv = 'https://' + self.IP + '/dataservice/system/device/management/systemip'
-		response = s.get(urv, auth=HTTPBasicAuth(self.username, self.password), verify=False)
-		d = response.json()
-		for i in d['data']:
-			if i['deviceType'] == 'vedge':
+		api_call = 'https://' + self.IP + '/dataservice/system/device/management/systemip'
+		response = session.get(urv, auth=HTTPBasicAuth(self.username, self.password), verify=False)
+		js_response = response.json()
+		for data in js_response['data']:
+			if data['deviceType'] == 'vedge':
 				print ( i['serialNumber'], i['chasisNumber'])
 
 
