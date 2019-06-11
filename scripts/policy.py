@@ -22,7 +22,7 @@ class activate_vsmart_policy:
         response = s.get(uri, auth=HTTPBasicAuth(self.username, self.password), verify=False)
         d = response.json()
         for i in d['data']:
-                if i['policyName'] == 'Policy-DC-Prefrence':
+                if i['policyName'] == 'SLA-Policy':
                     a = i['policyId']
         urv = 'https://' + self.IP +  '/dataservice/template/policy/vsmart/activate/' + a 
         headers={'Content-Type': 'application/json'}
@@ -34,9 +34,10 @@ class activate_vsmart_policy:
 
 
 
+
 def main(args):
     vmanage_ip = args[0]
-    obj = activate_vsmart_policy(vmanage_ip, 'admin', 'v1ptela0212')
+    obj = activate_vsmart_policy(vmanage_ip, 'devuser', 'clus19')
     result = obj.activate_policy()
 
 
