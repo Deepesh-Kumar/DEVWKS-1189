@@ -19,11 +19,11 @@ class device_audit:
 
 	def get_device_chassis_details(self):
 		api_call = 'https://' + self.IP + '/dataservice/system/device/management/systemip'
-		response = session.get(urv, auth=HTTPBasicAuth(self.username, self.password), verify=False)
+		response = session.get(api_call, auth=HTTPBasicAuth(self.username, self.password), verify=False)
 		js_response = response.json()
 		for data in js_response['data']:
 			if data['deviceType'] == 'vedge':
-				print ( i['serialNumber'], i['chasisNumber'])
+				print ( data['serialNumber'], data['chasisNumber'])
 
 
 
