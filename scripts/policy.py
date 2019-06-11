@@ -6,7 +6,7 @@ import sys
 from requests.auth import HTTPBasicAuth
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)  
-s = requests.session()  
+session = requests.session()  
  
 
 class activate_vsmart_policy:
@@ -19,18 +19,17 @@ class activate_vsmart_policy:
 
     def activate_policy(self):
         uri = 'https://' + self.IP + '/dataservice/template/policy/vsmart'
-        response = s.get(uri, auth=HTTPBasicAuth(self.username, self.password), verify=False)
-        d = response.json()
-        for i in d['data']:
-                if i['policyName'] == 'SLA-Policy':
-                    a = i['policyId']
-        urv = 'https://' + self.IP +  '/dataservice/template/policy/vsmart/activate/' + a 
+        response = session.get(uri, auth=HTTPBasicAuth(self.username, self.password), verify=False)
+        response_js = response.json()
+        for data in response_js['data']:
+                if data['policyName'] == 'SLA-Policy':
+                    policy_id = data['policyId']
+        urv = 'https://' + self.IP +  '/dataservice/template/policy/vsmart/activate/' + policy_id
         headers={'Content-Type': 'application/json'}
         payload = {}
         payload = json.dumps(payload)
-        response1 = s.post(url=urv, auth=HTTPBasicAuth(self.username, self.password), data=payload, headers=headers, verify=False)
-        print (response1, response1.content)
-
+        response_new = session.post(url=urv, auth=HTTPBasicAuth(self.username, self.password), data=payload, headers=headers, verify=False)
+        print (response_new, response_new.content)
 
 
 
