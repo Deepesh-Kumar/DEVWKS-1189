@@ -25,6 +25,7 @@ Credentials Provided
 
 ```
 * git clone https://github.com/Deepesh-Kumar/DEVKWS-1189.git
+** IN case it asks for a password you can download it.
 
 * cd DEVWKS-1189/scripts/
 
