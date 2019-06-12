@@ -11,7 +11,9 @@ This is the github repository for the DEVWKS-1189 workshop.
 
 ### vManage Access
 
-Credentials Provided
+URL - https://sdwan-devnet-{pod-number}-vmanage.westus2.cloudapp.azure.com/apidocs/
+
+* Pod number will be given by the instructor
 
 ### Sevone NMS Instance Access
 
