@@ -45,7 +45,7 @@ https://sdwan-docs.cisco.com/Product_Documentation/Command_Reference/vManage_RES
 #### Leverage Third party tools to look at integrations for monitoring SD-WAN devices.
 - Tools Used - LiveAction, SevOne
 - APIs Used - ht<span>tps://{{vmanage-ip}}/dataservice/data/device/state/Interface
-            - ht<span>tps://{{vmanage-ip}}/dataservice/data/device/state/BFDSessions
+            -- ht<span>tps://{{vmanage-ip}}/dataservice/data/device/state/BFDSessions
 - METHOD - GET  
 
 
