@@ -22,9 +22,15 @@ class push_device_template:
         payload_js = json.dumps(payload1)
         response_js = session.post(api_call_first, auth=HTTPBasicAuth(self.username, self.password), data= payload_js, headers=headers1, verify=False)
         cookie = response_js.cookies 
+        api_call_template_id =  'https://' + self.IP + '/dataservice/template/device'
+        response_js_1 = session.get(api_call_template_id, auth=HTTPBasicAuth(self.username, self.password), verify=False)
+        js_response_1 = response_js_1.json()
+        for data in js_response_1['data']:
+            if data['templateName'] == 'dc10-vedge-2':
+                templateid = data['templateId']
         api_call = 'https://' + self.IP + '/dataservice/template/device/config/attachcli'
         headers = {'Content-Type': 'application/json'}
-        payload = {"deviceTemplateList":[{"templateId":"42d40990-8c65-43f7-ba42-1d91fbc8fa3c","device":[{"csv-status":"complete","csv-deviceId":"0f500217-8dac-45d2-14a7-c19120a25af7","csv-deviceIP":"1.10.1.2","csv-host-name":"dc10-vedge2","csv-templateId":"42d40990-8c65-43f7-ba42-1d91fbc8fa3c"}],"isEdited":"false"}]}
+        payload = {"deviceTemplateList":[{"templateId":templateid,"device":[{"csv-status":"complete","csv-deviceId":"0f500217-8dac-45d2-14a7-c19120a25af7","csv-deviceIP":"1.10.1.2","csv-host-name":"dc10-vedge2","csv-templateId":"42d40990-8c65-43f7-ba42-1d91fbc8fa3c"}],"isEdited":"false"}]}
         data = json.dumps(payload)
         response_js_final = session.post(api_call, auth=HTTPBasicAuth(self.username, self.password), data= data, headers=headers, cookies=cookie, verify=False)
         print (response_js_final, response_js_final.content)
