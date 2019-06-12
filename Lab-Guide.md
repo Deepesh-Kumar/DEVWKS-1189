@@ -30,7 +30,7 @@ https://sdwan-docs.cisco.com/Product_Documentation/Command_Reference/vManage_RES
 #### Run python script to push centralized policy on the vSmart controller.
 - API Used  - ht<span>tps://{{vmanage-ip}}/dataservice/template/policy/vsmart
 - METHOD - POST
-##### Verification Step
+
 
 
 
@@ -38,7 +38,7 @@ https://sdwan-docs.cisco.com/Product_Documentation/Command_Reference/vManage_RES
 #### Run python script to push configuration on the WAN Edge Device.
 - API Used - ht<span>tps://{{vmanage-ip}}/dataservice/template/device/config/attachcli
 - METHOD - POST
-##### Verification Step
+
 
 
 ## Use Case-4 - Device Monitoring
